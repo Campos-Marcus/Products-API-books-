@@ -42,7 +42,7 @@ class Livro(Resource):
 
 	#dados que serão permitidos 
 	atributos.add_argument('nome', type= str, required=True, help= "The field 'nome' cannot be left blank")
-	atributos.add_argument('preco', type=float, required= True, help = "The field 'estrelas' cannot be left blank")
+	atributos.add_argument('preco', type=float, required= True, help = "The field 'preco' cannot be left blank")
 	atributos.add_argument('quantidade', type=int, required=False)
 
 	#CRUD
